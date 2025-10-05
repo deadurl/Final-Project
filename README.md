@@ -7,3 +7,4 @@ events being worked on
 *start game button works
 *cards are properly randomized and color coded
 *hand has 4 slots for canfield rules
+*drag card now drags an actual card piece
