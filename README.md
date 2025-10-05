@@ -4,3 +4,6 @@ events being worked on
 -having succesful card movement
 -waste/reserve/stock game events
 *wrote the code for the hand and proper canfield rules but due to drag and drop still being unfinished needs refreshed and unsure if it works
+*start game button works
+*cards are properly randomized and color coded
+*hand has 4 slots for canfield rules
