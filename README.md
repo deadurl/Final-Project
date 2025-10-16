@@ -1,10 +1,14 @@
-# Final-Project Update 4
-thankfully this is easier than i thought due to just translating from c++ to java. 
-events being worked on 
--having succesful card movement
--waste/reserve/stock game events
-*wrote the code for the hand and proper canfield rules but due to drag and drop still being unfinished needs refreshed and unsure if it works
-*start game button works
-*cards are properly randomized and color coded
-*hand has 4 slots for canfield rules
-*drag card now drags an actual card piece
+# Final-Project
+Due to time i have to turn this is in early and unfinished but for the most part it is finished
++ reserve pile finished and stacks correctly, only top card grabbable
++ waste pile has 3 cards and all are able to be grabbed/ they are changed from stock
++ all cards are able to be grabbed and moved with image however unable to be placed in specific spots
++ stock is blue as a show that there is cards face down there
++ tableau is filled and there is one card in foundation
++ start game button works and initiates game
+
+Issues:
+-drag and drop works but due to something that im unsure of i am not able to drop it into place (i did not have time to fully figure this out) 
+-waste pile still needs to cycle back into the stock. 
+-unsure if score works due to unfinished game however it is there and should work. 
+
