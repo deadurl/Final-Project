@@ -6,6 +6,8 @@ Due to time i have to turn this is in early and unfinished but for the most part
 + stock is blue as a show that there is cards face down there
 + tableau is filled and there is one card in foundation
 + start game button works and initiates game
++ game compiles and works despite issues 
++ code written for processes however unsure if it works due to unfinished code
 
 Issues:
 + drag and drop works but due to something that im unsure of i am not able to drop it into place (i did not have time to fully figure this out) 
