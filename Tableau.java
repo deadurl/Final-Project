@@ -14,19 +14,19 @@ public class Tableau extends CardPile
     @Override
     public StackPane getView() { return view;} //get pile view
 
-
     //check if can accept card (build down by alternating colors)
+    @Override
     public boolean canAccept(Card c) 
     {
         if (c == null) return false; //null check
-        if (cards.isEmpty()) return true; //empty check (can accept any card if empty)
+        if (cards.isEmpty()) return true; //empty tableau can accept any card
 
         Card top = topCard(); //get top card
         boolean oppositeColor = c.getSuit().isRed() != top.getSuit().isRed(); ///check opposite colors
         return oppositeColor && c.getRank() == top.getRank() - 1; //check rank down by 1
     }
 
-   
+    @Override
     protected void initializeView() //base pile view (no cards)
     {
         Rectangle placeholder = new Rectangle(80, 110);

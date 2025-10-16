@@ -19,6 +19,12 @@ public class Reserve extends CardPile
     }
 
     @Override
+    public boolean canAccept(Card c)
+    {
+        return false; // cards cannot be manually placed in reserve
+    }
+
+    @Override
     public StackPane getView() { return view;} //get pile view
 
     @Override
